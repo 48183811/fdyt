@@ -1,0 +1,1515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="map" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1ac44889-20ac-403c-af0d-26bd848a0f11" name="Default" comment="create project">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/map.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_4_3_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_MVC_4_3_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/c3p0_0_9_5_2_javadoc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_fasterxml_jackson_core_jackson_databind_2_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_fileupload_1_3_3_javadoc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_lang_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ehcache_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ehcache_1_5_01.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/hibernate_spatial_4_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javaee7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/net_sourceforge_jexcelapi_jxl_2_6_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/ojdbc6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_codehaus_jackson_jackson_mapper_asl_1_9_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_hibernate_hibernate_core_4_3_10_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_json_json_20170516.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/postgresql_42_2_2_jre7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/c3p0-0.9.5.2-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/c3p0-0.9.5.2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/c3p0-0.9.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/classmate-1.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/common-fileuplad/commons-fileupload-1.3.3-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/common-fileuplad/commons-fileupload-1.3.3-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/common-fileuplad/commons-fileupload-1.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/common-fileuplad/commons-io-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/common-fileuplad/portlet-api-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/common-fileuplad/servlet-api-2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-lang-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dom4j-1.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ehcache-1.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/gson-2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hibernate-commons-annotations-5.0.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hibernate-core-5.2.11.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hibernate-spatial-4.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hibernate4.3.10final/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hibernate4.3.10final/dom4j-1.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hibernate4.3.10final/hibernate-commons-annotations-4.0.5.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hibernate4.3.10final/hibernate-core-4.3.10.Final-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hibernate4.3.10final/hibernate-core-4.3.10.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hibernate4.3.10final/hibernate-jpa-2.1-api-1.0.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hibernate4.3.10final/jandex-1.1.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hibernate4.3.10final/javassist-3.18.1-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hibernate4.3.10final/jboss-logging-3.1.3.GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hibernate4.3.10final/jboss-logging-annotations-1.2.0.Beta1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hibernate4.3.10final/jboss-transaction-api_1.2_spec-1.0.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hibernate4.3.10final/xml-apis-1.0.b2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jackson-annotations-2.9.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jackson-core-2.9.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jackson-core-asl-1.9.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jackson-databind-2.9.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jackson-mapper-asl-1.9.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jandex-2.0.3.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javaee7/javaee-api-7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javassist-3.20.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jboss-logging-3.3.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jboss-transaction-api_1.2_spec-1.0.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/json-20170516.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jts-1.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jxl-2.6.12-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jxl-2.6.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/log4j-1.2.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mchange-commons-java-0.2.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/ojdbc6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/postgis.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/postgresql-42.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/postgresql-42.2.2.jre7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/postgresql-9.2-1003.jdbc4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-aop-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-aspects-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-beans-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-context-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-context-support-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-core-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-expression-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-instrument-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-instrument-tomcat-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-jdbc-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-jms-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-messaging-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-orm-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-oxm-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-test-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-tx-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-web-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-webmvc-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-webmvc-portlet-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/spring-websocket-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/constant/Sys.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/controller/AnalyseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/controller/LandEnclosureController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/controller/LandRightsInfoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/controller/UserPortalController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/controller/verification.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/dao/AnalyseDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/dao/LandEnclosureDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/dao/LandRightsInfoDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/dao/SysUserDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/dao/SysUserExtraDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/dao/SysUserRoleDetailDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/dataBean/SysUserObject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/dataBean/baseTable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/dto/AnalyseResultInfoDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/dto/AuthCodeDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/dto/FDYT_DTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/dto/LandAreaAnalyseDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/dto/LandBuildTimeCountDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/dto/LandEnclosureFilesDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/dto/LandEnclosureListDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/dto/LandRightsInfoAnalyseDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/dto/LandRightsInfoDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/dto/LandRightsInfoQueryByObligeeDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/dto/ModelInfoDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/dto/PlanningInfoDownload_DTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/dto/TDXZ_DLTB2009_DTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/dto/TG_JBNT_DTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/dto/TG_JSYDGZQ_DTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/dto/TG_TDGHDL_DTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/dto/XZQ_DTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/enm/RESULT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/framework/BaseDAO$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/framework/BaseDAO$10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/framework/BaseDAO$11.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/framework/BaseDAO$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/framework/BaseDAO$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/framework/BaseDAO$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/framework/BaseDAO$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/framework/BaseDAO$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/framework/BaseDAO$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/framework/BaseDAO$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/framework/BaseDAO$9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/framework/BaseDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/framework/CallResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/framework/DefBaseDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/framework/Executor$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/framework/Executor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/framework/PageBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/main/resource/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/model/LandBuildingInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/model/LandEnclosure.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/model/LandRightsInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/model/SysUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/model/SysUserExtra.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/model/SysUserRoleDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/pgMapping/AbstractArrayTypeDescriptor$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/pgMapping/AbstractArrayTypeDescriptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/pgMapping/ArraySqlTypeDescriptor$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/pgMapping/ArraySqlTypeDescriptor$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/pgMapping/ArraySqlTypeDescriptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/pgMapping/EnumArrayType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/pgMapping/EnumArrayTypeDescriptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/pgMapping/EnumType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/pgMapping/IntArrayType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/pgMapping/IntArrayTypeDescriptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/pgMapping/StringArrayType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/pgMapping/StringArrayTypeDescriptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/pgMapping/enumEntity/EnumSysUserAuthorization.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/pgMapping/enumEntity/EnumSysUserRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/service/IAnalyseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/service/ILandEnclosureService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/service/ILandRightsInfoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/service/ISysUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/service/impl/AnalyseServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/service/impl/LandEnclosureServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/service/impl/LandRightsInfoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/service/impl/SysUserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/util/ArrayUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/util/Base64Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/util/CoordinatesUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/util/CorsFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/util/DataTransformUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/util/DateUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/util/DownloadFileUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/util/ExcelUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/util/FileUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/util/HttpRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/util/IDCardValidatorUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/util/ImageUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/util/ModelUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/util/ResponseMapUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/util/SavePicUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/util/StringUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/util/UuidUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/util/ZipUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/classes/util/isPhoneUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/c3p0-0.9.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/commons-fileupload-1.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/commons-io-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/commons-lang-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/dom4j-1.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/ehcache-1.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/gson-2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/hibernate-commons-annotations-4.0.5.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/hibernate-core-4.3.10.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/hibernate-spatial-4.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/jackson-annotations-2.9.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/jackson-core-2.9.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/jackson-core-asl-1.9.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/jackson-databind-2.9.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/jackson-mapper-asl-1.9.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/jandex-1.1.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/javaee-api-7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/javassist-3.18.1-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/jboss-logging-3.1.3.GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/jboss-logging-annotations-1.2.0.Beta1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.0.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/json-20170516.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/jts-1.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/jxl-2.6.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/mchange-commons-java-0.2.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/ojdbc6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/portlet-api-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/postgis.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/postgresql-42.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/postgresql-42.2.2.jre7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/postgresql-9.2-1003.jdbc4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/servlet-api-2.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/spring-aop-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/spring-aspects-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/spring-beans-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/spring-context-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/spring-context-support-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/spring-core-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/spring-expression-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/spring-instrument-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/spring-instrument-tomcat-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/spring-jdbc-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/spring-jms-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/spring-messaging-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/spring-orm-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/spring-oxm-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/spring-test-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/spring-tx-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/spring-web-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/spring-webmvc-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/spring-webmvc-portlet-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/spring-websocket-4.3.10.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/lib/xml-apis-1.0.b2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/css/fonts/MaterialIcons-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/css/fonts/MaterialIcons-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/css/fonts/MaterialIcons-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/css/fonts/MaterialIcons-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/css/images/bk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/css/images/bk2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/css/images/login_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/css/images/login_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/css/images/title-bk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/css/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/css/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/css/jquery.treeview.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/css/material-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/css/muse-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/css/ol.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/js/general.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/js/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/js/jquery.treeview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/js/legend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/js/muse-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/js/ol.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/js/proj4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/js/spark-md5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/js/swiper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/js/userAgent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/js/vue.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/map/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/constant/Sys.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/controller/AnalyseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/controller/LandEnclosureController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/controller/LandRightsInfoController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/controller/UserPortalController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/controller/verification.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/dao/AnalyseDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/dao/LandEnclosureDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/dao/LandRightsInfoDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/dao/SysUserDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/dao/SysUserExtraDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/dao/SysUserRoleDetailDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/dataBean/SysUserObject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/dataBean/baseTable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/dto/AnalyseResultInfoDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/dto/AuthCodeDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/dto/FDYT_DTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/dto/LandAreaAnalyseDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/dto/LandBuildTimeCountDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/dto/LandEnclosureFilesDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/dto/LandEnclosureListDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/dto/LandRightsInfoAnalyseDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/dto/LandRightsInfoDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/dto/LandRightsInfoQueryByObligeeDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/dto/ModelInfoDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/dto/PlanningInfoDownload_DTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/dto/TDXZ_DLTB2009_DTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/dto/TG_JBNT_DTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/dto/TG_JSYDGZQ_DTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/dto/TG_TDGHDL_DTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/dto/XZQ_DTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/enm/RESULT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/framework/BaseDAO$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/framework/BaseDAO$10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/framework/BaseDAO$11.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/framework/BaseDAO$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/framework/BaseDAO$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/framework/BaseDAO$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/framework/BaseDAO$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/framework/BaseDAO$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/framework/BaseDAO$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/framework/BaseDAO$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/framework/BaseDAO$9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/framework/BaseDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/framework/CallResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/framework/DefBaseDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/framework/Executor$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/framework/Executor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/framework/PageBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/main/resource/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/model/LandBuildingInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/model/LandEnclosure.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/model/LandRightsInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/model/SysUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/model/SysUserExtra.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/model/SysUserRoleDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/pgMapping/AbstractArrayTypeDescriptor$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/pgMapping/AbstractArrayTypeDescriptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/pgMapping/ArraySqlTypeDescriptor$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/pgMapping/ArraySqlTypeDescriptor$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/pgMapping/ArraySqlTypeDescriptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/pgMapping/EnumArrayType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/pgMapping/EnumArrayTypeDescriptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/pgMapping/EnumType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/pgMapping/IntArrayType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/pgMapping/IntArrayTypeDescriptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/pgMapping/StringArrayType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/pgMapping/StringArrayTypeDescriptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/pgMapping/enumEntity/EnumSysUserAuthorization.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/pgMapping/enumEntity/EnumSysUserRole.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/service/IAnalyseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/service/ILandEnclosureService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/service/ILandRightsInfoService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/service/ISysUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/service/impl/AnalyseServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/service/impl/LandEnclosureServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/service/impl/LandRightsInfoServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/service/impl/SysUserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/util/ArrayUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/util/Base64Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/util/CoordinatesUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/util/CorsFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/util/DataTransformUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/util/DateUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/util/DownloadFileUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/util/ExcelUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/util/FileUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/util/HttpRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/util/IDCardValidatorUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/util/ImageUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/util/ModelUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/util/ResponseMapUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/util/SavePicUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/util/StringUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/util/UuidUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/util/ZipUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/spring/util/isPhoneUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/constant/Sys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/AnalyseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/LandEnclosureController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/LandRightsInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/UserPortalController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/verification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/AnalyseDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/LandEnclosureDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/LandRightsInfoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/SysUserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/SysUserExtraDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/SysUserRoleDetailDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dataBean/SysUserObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dataBean/baseTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dto/AnalyseResultInfoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dto/AuthCodeDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dto/FDYT_DTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dto/LandAreaAnalyseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dto/LandBuildTimeCountDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dto/LandEnclosureFilesDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dto/LandEnclosureListDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dto/LandRightsInfoAnalyseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dto/LandRightsInfoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dto/LandRightsInfoQueryByObligeeDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dto/ModelInfoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dto/PlanningInfoDownload_DTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dto/TDXZ_DLTB2009_DTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dto/TG_JBNT_DTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dto/TG_JSYDGZQ_DTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dto/TG_TDGHDL_DTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dto/XZQ_DTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/enm/RESULT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/BaseDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/CallResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/DefBaseDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/Executor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/framework/PageBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/LandBuildingInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/LandEnclosure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/LandRightsInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/SysUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/SysUserExtra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/SysUserRoleDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pgMapping/AbstractArrayTypeDescriptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pgMapping/ArraySqlTypeDescriptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pgMapping/EnumArrayType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pgMapping/EnumArrayTypeDescriptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pgMapping/EnumType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pgMapping/IntArrayType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pgMapping/IntArrayTypeDescriptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pgMapping/StringArrayType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pgMapping/StringArrayTypeDescriptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pgMapping/enumEntity/EnumSysUserAuthorization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pgMapping/enumEntity/EnumSysUserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/IAnalyseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/ILandEnclosureService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/ILandRightsInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/ISysUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/impl/AnalyseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/impl/LandEnclosureServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/impl/LandRightsInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/impl/SysUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/ArrayUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/Base64Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/CoordinatesUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/CorsFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/DataTransformUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/DownloadFileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/ExcelUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/FileUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/HttpRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/IDCardValidatorUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/ImageUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/ModelUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/ResponseMapUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/SavePicUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/StringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/UuidUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/ZipUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/isPhoneUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jxl-2.6.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/fonts/MaterialIcons-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/fonts/MaterialIcons-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/fonts/MaterialIcons-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/fonts/MaterialIcons-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/images/bk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/images/bk2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/images/login_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/images/login_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/images/title-bk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/jquery.treeview.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/material-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/muse-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/ol.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/general.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery.treeview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/legend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/muse-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/ol.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/proj4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/spark-md5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/swiper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/userAgent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/vue.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/main.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/spring$tomcat.coverage" NAME="tomcat Coverage Results" MODIFIED="1527834343815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/spring$ts.coverage" NAME="ts Coverage Results" MODIFIED="1514864531573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="spring" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="package-info" />
+        <option value="JUnit4 Test Class" />
+        <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="Tag Library Descriptor" />
+        <option value="Class" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>model</find>
+      <find>hibernate</find>
+      <find>hibernate-mapping</find>
+      <find>property</find>
+      <find>dataBean</find>
+      <find>TestTab</find>
+      <find>TestTabKKK</find>
+      <find>autocommit</find>
+      <find>sessionFactory</find>
+      <find>code</find>
+      <find>yangguanghe</find>
+      <find>sVillagers</find>
+      <find>evan.webapp</find>
+      <find>api/landRightsInfo/</find>
+      <find>landRightsInfo</find>
+      <find>downloadPlanningInfo.do</find>
+      <find>download</find>
+      <find>下载</find>
+      <find>面积分析</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\_2020\fdyt\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="true" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1cW6tuosLYKFCap8YjxlATMYELm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="true" />
+    <property name="Repository.Attach.Sources" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$PROJECT_DIR$/../android/sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588931698737" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.42528737" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/../dz1016/src" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\_2020\fdyt\web\css\images" />
+      <recent name="D:\project\system\src\main\java\dao" />
+      <recent name="D:\_2019年工作\system\web\css" />
+      <recent name="D:\_2019年工作\system\web" />
+      <recent name="D:\tmp\javaweb\untitled\web" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\_2020\fdyt\web\css\fonts" />
+      <recent name="D:\project\system\src\main\java\util" />
+      <recent name="D:\_2019年工作\system - 副本\src\main\java\controller" />
+      <recent name="D:\_2019年工作\system - 副本\src\main\java\util" />
+      <recent name="D:\_2019年工作\system\web\text" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="framework" />
+      <recent name="dto" />
+      <recent name="dao" />
+      <recent name="model" />
+      <recent name="constant" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="dataBean" />
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.tomcat">
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
+      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
+      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
+      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
+      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ts" />
+      <module name="spring" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="grailsApplicationRoot" value="" />
+      <setting name="launchBrowser" value="false" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_spring" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="57863" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="transportHostId" value="" />
+          <host-id />
+        </data>
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="TOMCAT_LOCALHOST_LOG_ID" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.38" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8083/main.html" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
+      <deployment>
+        <artifact name="map">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_spring" />
+        <option name="HTTP_PORT" value="8083" />
+        <option name="JNDI_PORT" value="10521" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="1283" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="map" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.ts" />
+      <item itemvalue="Tomcat Server.tomcat" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ts" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\ly\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1ac44889-20ac-403c-af0d-26bd848a0f11" name="Default" comment="" />
+      <created>1507023714247</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1507023714247</updated>
+      <workItem from="1507023722330" duration="3605000" />
+      <workItem from="1507097466003" duration="19276000" />
+      <workItem from="1507439200307" duration="16626000" />
+      <workItem from="1507528003225" duration="3731000" />
+      <workItem from="1507552094807" duration="7000" />
+      <workItem from="1507552183000" duration="1271000" />
+      <workItem from="1507554004661" duration="8571000" />
+      <workItem from="1507598574298" duration="11115000" />
+      <workItem from="1507641732614" duration="3399000" />
+      <workItem from="1507724287315" duration="32483000" />
+      <workItem from="1508242772468" duration="28516000" />
+      <workItem from="1508324449731" duration="418000" />
+      <workItem from="1508324977054" duration="352000" />
+      <workItem from="1508325372020" duration="77810000" />
+      <workItem from="1508808741045" duration="14276000" />
+      <workItem from="1508896809536" duration="4526000" />
+      <workItem from="1508903030701" duration="50838000" />
+      <workItem from="1510497234692" duration="29000" />
+      <workItem from="1510497281458" duration="50955000" />
+      <workItem from="1511762262421" duration="8991000" />
+      <workItem from="1512545099291" duration="191995000" />
+      <workItem from="1516672857526" duration="9366000" />
+      <workItem from="1516862750031" duration="1536000" />
+      <workItem from="1517190990962" duration="1276000" />
+      <workItem from="1519652883700" duration="9596000" />
+      <workItem from="1520921951218" duration="219000" />
+      <workItem from="1521011632765" duration="13245000" />
+      <workItem from="1522237922537" duration="19977000" />
+      <workItem from="1524108103724" duration="6179000" />
+      <workItem from="1524191627359" duration="10584000" />
+      <workItem from="1525314531800" duration="10588000" />
+      <workItem from="1525334477960" duration="45000" />
+      <workItem from="1525334991865" duration="8725000" />
+      <workItem from="1525412683909" duration="1678000" />
+      <workItem from="1525415980418" duration="48000" />
+      <workItem from="1525416043057" duration="24000" />
+      <workItem from="1525416693449" duration="2330000" />
+      <workItem from="1525655776238" duration="605000" />
+      <workItem from="1525656847882" duration="1261000" />
+      <workItem from="1525658532071" duration="705000" />
+      <workItem from="1525659263681" duration="2269000" />
+      <workItem from="1525662634219" duration="17519000" />
+      <workItem from="1525828203984" duration="18478000" />
+      <workItem from="1525913822893" duration="25748000" />
+      <workItem from="1526262453764" duration="34920000" />
+      <workItem from="1526439903132" duration="30138000" />
+      <workItem from="1526865037541" duration="12254000" />
+      <workItem from="1526950428214" duration="8471000" />
+      <workItem from="1526971331375" duration="384000" />
+      <workItem from="1526972014898" duration="2911000" />
+      <workItem from="1526975169983" duration="20732000" />
+      <workItem from="1527129365946" duration="57220000" />
+      <workItem from="1529027886272" duration="5750000" />
+      <workItem from="1529636849535" duration="27000" />
+      <workItem from="1529637714879" duration="13142000" />
+      <workItem from="1529911930936" duration="8000000" />
+      <workItem from="1529980888039" duration="16362000" />
+      <workItem from="1530181108085" duration="35335000" />
+      <workItem from="1531123551159" duration="2432000" />
+      <workItem from="1531184670944" duration="15149000" />
+      <workItem from="1531639287261" duration="26627000" />
+      <workItem from="1532913220633" duration="10671000" />
+      <workItem from="1533866953248" duration="2807000" />
+      <workItem from="1534230642259" duration="9934000" />
+      <workItem from="1534727360742" duration="3066000" />
+      <workItem from="1535348248571" duration="4148000" />
+      <workItem from="1537236812857" duration="3000" />
+      <workItem from="1537342821664" duration="604000" />
+      <workItem from="1537405526596" duration="22000" />
+      <workItem from="1537405604379" duration="1896000" />
+      <workItem from="1539738262433" duration="1442000" />
+      <workItem from="1539743030549" duration="2000" />
+      <workItem from="1539848069210" duration="8297000" />
+      <workItem from="1540777125383" duration="7000" />
+      <workItem from="1540777224529" duration="33240000" />
+      <workItem from="1541404535101" duration="45071000" />
+      <workItem from="1542589548425" duration="34284000" />
+      <workItem from="1544078014806" duration="8875000" />
+      <workItem from="1544169654952" duration="664000" />
+      <workItem from="1544181926519" duration="1780000" />
+      <workItem from="1545117878589" duration="5000" />
+      <workItem from="1545200522382" duration="2033000" />
+      <workItem from="1545803025426" duration="2664000" />
+      <workItem from="1548040232417" duration="12737000" />
+      <workItem from="1550451611385" duration="2344000" />
+      <workItem from="1550624835972" duration="6240000" />
+      <workItem from="1550731550121" duration="5507000" />
+      <workItem from="1551056477621" duration="2282000" />
+      <workItem from="1551229687181" duration="7000" />
+      <workItem from="1551229800325" duration="619000" />
+      <workItem from="1551835545794" duration="6681000" />
+      <workItem from="1554187815440" duration="4552000" />
+      <workItem from="1554690273608" duration="19695000" />
+      <workItem from="1555895065111" duration="25269000" />
+      <workItem from="1556503125369" duration="2218000" />
+      <workItem from="1557019199987" duration="43602000" />
+      <workItem from="1557904390572" duration="9099000" />
+      <workItem from="1558057745030" duration="10623000" />
+      <workItem from="1558332472766" duration="21369000" />
+      <workItem from="1558573706421" duration="20861000" />
+      <workItem from="1558918838067" duration="3145000" />
+      <workItem from="1558942458127" duration="35325000" />
+      <workItem from="1559264595694" duration="10883000" />
+      <workItem from="1559784123803" duration="147000" />
+      <workItem from="1559806411774" duration="1078000" />
+      <workItem from="1560128503258" duration="5839000" />
+      <workItem from="1560240924915" duration="1966000" />
+      <workItem from="1560243131441" duration="9148000" />
+      <workItem from="1560253481219" duration="1303000" />
+      <workItem from="1560303444786" duration="1083000" />
+      <workItem from="1560304860241" duration="19882000" />
+      <workItem from="1560337649446" duration="54968000" />
+      <workItem from="1560564143337" duration="8674000" />
+      <workItem from="1560580221718" duration="16367000" />
+      <workItem from="1560824463373" duration="30931000" />
+      <workItem from="1561338227458" duration="59755000" />
+      <workItem from="1561705165673" duration="699000" />
+      <workItem from="1561705896699" duration="14565000" />
+      <workItem from="1561943323735" duration="5669000" />
+      <workItem from="1561960118870" duration="57249000" />
+      <workItem from="1562315474198" duration="726000" />
+      <workItem from="1564197299921" duration="4786000" />
+      <workItem from="1564384903005" duration="345000" />
+      <workItem from="1564385289355" duration="3146000" />
+      <workItem from="1564453786990" duration="8352000" />
+      <workItem from="1564475800101" duration="3830000" />
+      <workItem from="1564535855891" duration="20847000" />
+      <workItem from="1564565341146" duration="7000" />
+      <workItem from="1588844884525" duration="603000" />
+      <workItem from="1588845776158" duration="1183000" />
+      <workItem from="1588910058514" duration="912000" />
+      <workItem from="1588910993318" duration="14777000" />
+      <workItem from="1588988274036" duration="4642000" />
+      <workItem from="1588993748498" duration="13875000" />
+      <workItem from="1589163716873" duration="11383000" />
+      <workItem from="1589246322688" duration="2224000" />
+      <workItem from="1589333580636" duration="12941000" />
+      <workItem from="1589418337180" duration="4970000" />
+      <workItem from="1589505573278" duration="942000" />
+      <workItem from="1589763725751" duration="1433000" />
+      <workItem from="1589850370908" duration="2754000" />
+      <workItem from="1590026955214" duration="13022000" />
+      <workItem from="1590110327271" duration="5686000" />
+      <workItem from="1590137938039" duration="3461000" />
+      <workItem from="1590369143687" duration="1313000" />
+      <workItem from="1590389138175" duration="23000" />
+      <workItem from="1590389176504" duration="1359000" />
+      <workItem from="1590457209640" duration="4654000" />
+      <workItem from="1590632220562" duration="7948000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="create project" />
+    <option name="LAST_COMMIT_MESSAGE" value="create project" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="131" y="164" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590636460707">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="131" y="164" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590636460707" />
+    <state x="478" y="37" key="CommitChangelistDialog2" timestamp="1590643442479">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="478" y="37" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590643442479" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1590642732752">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590642732752" />
+    <state x="832" y="302" width="273" height="288" key="Github.ShareDialog" timestamp="1590643253255">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="832" y="302" width="273" height="288" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590643253255" />
+    <state x="711" y="218" key="Github.UntrackedFilesDialog" timestamp="1590643280639">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="711" y="218" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590643280639" />
+    <state width="1293" height="274" key="GridCell.Tab.0.bottom" timestamp="1590635469296">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590635469296" />
+    <state width="1293" height="274" key="GridCell.Tab.0.center" timestamp="1590635469296">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590635469296" />
+    <state width="1293" height="274" key="GridCell.Tab.0.left" timestamp="1590635469296">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590635469296" />
+    <state width="1293" height="274" key="GridCell.Tab.0.right" timestamp="1590635469296">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590635469296" />
+    <state width="1293" height="274" key="GridCell.Tab.1.bottom" timestamp="1590635469235">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="274" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590635469235" />
+    <state width="1293" height="274" key="GridCell.Tab.1.center" timestamp="1590635469235">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="274" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590635469235" />
+    <state width="1293" height="274" key="GridCell.Tab.1.left" timestamp="1590635469235">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="274" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590635469235" />
+    <state width="1293" height="274" key="GridCell.Tab.1.right" timestamp="1590635469235">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="274" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590635469235" />
+    <state width="1293" height="274" key="GridCell.Tab.2.bottom" timestamp="1590635469235">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="274" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590635469235" />
+    <state width="1293" height="274" key="GridCell.Tab.2.center" timestamp="1590635469235">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="274" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590635469235" />
+    <state width="1293" height="274" key="GridCell.Tab.2.left" timestamp="1590635469235">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="274" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590635469235" />
+    <state width="1293" height="274" key="GridCell.Tab.2.right" timestamp="1590635469235">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="274" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590635469235" />
+    <state width="1293" height="274" key="GridCell.Tab.3.bottom" timestamp="1590635010777">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="274" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590635010777" />
+    <state width="1293" height="274" key="GridCell.Tab.3.center" timestamp="1590635010777">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="274" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590635010777" />
+    <state width="1293" height="274" key="GridCell.Tab.3.left" timestamp="1590635010777">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="274" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590635010777" />
+    <state width="1293" height="274" key="GridCell.Tab.3.right" timestamp="1590635010777">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="274" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590635010777" />
+    <state x="461" y="162" width="1015" height="716" key="SettingsEditor" timestamp="1590643223633">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" width="1015" height="716" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1590643223633" />
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1590632221737">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590632221737" />
+    <state x="530" y="165" key="com.intellij.javaee.view.ServerArtifactsDialog" timestamp="1590636628495">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="530" y="165" key="com.intellij.javaee.view.ServerArtifactsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590636628495" />
+    <state x="334" y="244" key="new project wizard" timestamp="1590632545483">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="244" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1590632545483" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/service/impl/MSchoolServiceImpl.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="320" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/service/impl/MSchoolServiceImpl.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="322" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/repository/impl/MSchoolRepositoryImpl.java</url>
+          <line>222</line>
+          <option name="timeStamp" value="351" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+        <watch expression="cri" language="JAVA" custom="" />
+        <watch expression="id" language="JAVA" custom="" />
+        <watch expression="cell" />
+        <watch expression="new Label(1,i-areaAddNum-landNumberEqualNum,householdNumberMerge,cell.getCellFormat())" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.42528737" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>map</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.42528737" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (spring)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.42528737" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.42528737" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.42528737" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.42528737" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Spring-4.3.10.RELEASE</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.42528737" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

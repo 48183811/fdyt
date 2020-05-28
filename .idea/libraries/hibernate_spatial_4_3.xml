@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="hibernate-spatial-4.3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/hibernate-spatial-4.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jts-1.8.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/postgis.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/postgresql-42.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/postgresql-9.2-1003.jdbc4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
