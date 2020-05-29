@@ -3,6 +3,7 @@ package service;
 
 import dataBean.SysUserObject;
 import model.SysUser;
+import model.SysUserRole;
 import pgMapping.enumEntity.EnumSysUserRole;
 
 public interface ISysUserService {
@@ -30,47 +31,19 @@ public interface ISysUserService {
     boolean registerUser(String loginName, String password);
 
     /**
-     * 获取menuID数组
-     * @param role 角色
-     * @return 格式为{a,b,v,d}
-     */
-    String[] getMenuIDArr(EnumSysUserRole role);
-
-    /**
-     * 获取menuID数组
-     * @param gid 用户gid
-     * @return 格式为{a,b,v,d}
-     */
-    String[] getMenuIDArr(Integer gid);
-
-    /**
-     *
-     * @param role 角色
-     * @return 格式为{a,b,v,d}
-     */
-    String[] getDataIDArr(EnumSysUserRole role);
-
-    /**
-     *
-     * @param gid 用户gid
-     * @return 格式为{a,b,v,d}
-     */
-    String[] getDataIDArr(Integer gid);
-
-    /**
-     * 更新SysUserRoleDetail 的data_id_arr
-     * @param s 格式为{a,b,v,d}
+     * 新建项目
+     * @param name
+     * @param info
      * @return
      */
-    boolean setDataIDArr(String s);
+    boolean registerProject(String name, String info);
 
     /**
-     * 更新SysUserRoleDetail 的menu_id_arr
-     * @param s 格式为{a,b,v,d}
+     * 通过gid获取SysUserRole
+     * @param gid
      * @return
      */
-    boolean setMenuIDArr(String s);
-
+    SysUserRole getRoleByGid(Integer gid);
     /**
      * 保存或更新数据
      * @param object 数据实体

@@ -23,10 +23,10 @@ public class SysUserDAO extends DefBaseDAO<SysUser, Integer> {
      * @param password
      * @return 成功的话返回该用户的gid
      */
-    public Integer checkLoginData(String loginName, String password){
+    public SysUser checkLoginData(String loginName, String password){
         List<SysUser> list = find(CHECK_LOGIN,loginName,password);
         if(list.size() ==1){
-            return list.get(0).getGid();
+            return list.get(0);
         }
         return null;
     }

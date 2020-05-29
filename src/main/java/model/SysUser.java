@@ -18,8 +18,11 @@ public class SysUser {
     String login_name;
     @Column(name = "password",length = 32)
     String password;
-    @Column(name = "token",length = 32)
-    String token;
+    @Column(name = "projectgid")
+    Integer projectgid;
+    @Column(name = "role",length = 32)
+    String role;
+
 
     public Integer getGid() {
         return gid;
@@ -45,11 +48,19 @@ public class SysUser {
         this.password = password;
     }
 
-    public String getToken() {
-        return token;
+    public Integer getProjectgid() {
+        return projectgid;
     }
 
-    public void setToken(String token) {
-        this.token = token;
+    public void setProjectgid(Integer projectgid) {
+        this.projectgid = projectgid;
+    }
+
+    public String getRole() {
+        return role;
+    }
+
+    public void setRole(String role) {
+        this.role = role;
     }
 }

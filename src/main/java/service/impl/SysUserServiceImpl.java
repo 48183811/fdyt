@@ -1,12 +1,14 @@
 package service.impl;
 
+import dao.SysMenuDataDAO;
+import dao.SysProjectDAO;
 import dao.SysUserDAO;
-import dao.SysUserExtraDAO;
-import dao.SysUserRoleDetailDAO;
+import dao.SysUserRoleDAO;
 import dataBean.SysUserObject;
+import model.SysMenuData;
+import model.SysProject;
 import model.SysUser;
-import model.SysUserExtra;
-import model.SysUserRoleDetail;
+import model.SysUserRole;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import pgMapping.enumEntity.EnumSysUserRole;
@@ -30,9 +32,11 @@ public class SysUserServiceImpl implements ISysUserService {
     @Autowired
     SysUserDAO sysUserDAO;
     @Autowired
-    SysUserExtraDAO sysUserExtraDAO;
+    SysMenuDataDAO sysMenuDataDAO;
     @Autowired
-    SysUserRoleDetailDAO sysUserRoleDetailDAO;
+    SysProjectDAO sysProjectDAO;
+    @Autowired
+    SysUserRoleDAO sysUserRoleDAO;
 
     private Map<Type,Field> DaoMap ;
 
@@ -45,17 +49,18 @@ public class SysUserServiceImpl implements ISysUserService {
         return sysUserDAO.get(gid);
     }
 
-    public SysUserRoleDetail get(EnumSysUserRole role){
-        return sysUserRoleDetailDAO.get(role);
+    @Override
+    public boolean registerProject(String name, String info) {
+        return sysProjectDAO.registerProject(name,info);
     }
+
     @Override
     public SysUserObject checkLoginData(String loginName, String password) {
-        Integer gid = sysUserDAO.checkLoginData(loginName,password);
         try{
-            if(gid!=null){
-                SysUserExtra extra = sysUserExtraDAO.get(gid);
-                SysUserRoleDetail detail = sysUserRoleDetailDAO.get(extra.getRole());
-                return new SysUserObject(extra,detail);
+            SysUser user = sysUserDAO.checkLoginData(loginName,password);
+            if(user!=null){
+                SysUserRole  role = sysUserRoleDAO.getRole(user.getRole(),user.getProjectgid());
+                return new SysUserObject(user,role);
             }
         }
         catch (Exception e){
@@ -68,57 +73,6 @@ public class SysUserServiceImpl implements ISysUserService {
         return sysUserDAO.registerUser(loginName,password);
     }
 
-    @Override
-    public String[] getMenuIDArr(EnumSysUserRole role) {
-        SysUserRoleDetail detail = sysUserRoleDetailDAO.get(role);
-        if(detail != null){
-            return detail.getMenu_id_arr();
-        }
-        return null;
-    }
-
-    @Override
-    public String[] getMenuIDArr(Integer gid) {
-        SysUserExtra extra = sysUserExtraDAO.get(gid);
-        if(extra !=null){
-            SysUserRoleDetail detail = sysUserRoleDetailDAO.get(extra.getRole());
-            if(detail != null){
-                return detail.getMenu_id_arr();
-            }
-        }
-        return null;
-    }
-
-    @Override
-    public String[] getDataIDArr(EnumSysUserRole role) {
-        SysUserRoleDetail detail = sysUserRoleDetailDAO.get(role);
-        if(detail != null){
-            return detail.getData_id_arr();
-        }
-        return null;
-    }
-
-    @Override
-    public String[] getDataIDArr(Integer gid) {
-        SysUserExtra extra = sysUserExtraDAO.get(gid);
-        if(extra !=null){
-            SysUserRoleDetail detail = sysUserRoleDetailDAO.get(extra.getRole());
-            if(detail != null){
-                return detail.getData_id_arr();
-            }
-        }
-        return null;
-    }
-
-    @Override
-    public boolean setDataIDArr(String s) {
-        return false;
-    }
-
-    @Override
-    public boolean setMenuIDArr(String s) {
-        return false;
-    }
 
     @Override
     public boolean saveOrUpdate(Object model, Class cls) {
@@ -151,5 +105,15 @@ public class SysUserServiceImpl implements ISysUserService {
         }
     }
 
-
+    @Override
+    public SysUserRole getRoleByGid(Integer gid) {
+        SysUserRole role = null;
+        try {
+            role = sysUserRoleDAO.get(gid);
+        }
+        catch (Exception e){
+            e.printStackTrace();
+        }
+        return role;
+    }
 }

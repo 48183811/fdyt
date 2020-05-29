@@ -7,6 +7,13 @@ public class CallResult<T> {
 	private T data;					//	返回数据
 	private String msg;				//	消息
 
+	public CallResult() {
+	}
+
+	public CallResult(boolean flag) {
+		this.flag = flag;
+	}
+
 	public boolean getFlag() {
 		return flag;
 	}

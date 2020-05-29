@@ -3,33 +3,32 @@ package model;
 import org.hibernate.annotations.Type;
 import org.hibernate.annotations.TypeDef;
 import org.hibernate.annotations.TypeDefs;
-import pgMapping.*;
-import pgMapping.enumEntity.EnumSysUserAuthorization;
-import pgMapping.enumEntity.EnumSysUserRole;
 
 import javax.persistence.*;
 
 /**
  * @program: spring
- * @description: 用户角色详细 ： 菜单数据 图层数据
+ * @description: 用户角色表 sys_user_role
  * @author: ly
- * @create: 2020-05-12 17:31
+ * @create: 2020-05-29 11:03
  **/
 @Entity
-@Table(name = "sys_user_role_detail")
+@Table(name = "sys_user_role")
 @TypeDefs({
-        @TypeDef(name = "string-array", typeClass = StringArrayType.class),
-        @TypeDef(name = "int-array", typeClass = IntArrayType.class),
-        @TypeDef(name = "enum-type",typeClass = pgMapping.EnumType.class),
-        @TypeDef(name = "enum-type2",typeClass = pgMapping.EnumType.class),
-        @TypeDef(name = "enum-array-type",typeClass = pgMapping.EnumArrayType.class)
+        @TypeDef(name = "string-array", typeClass = pgMapping.StringArrayType.class),
+        @TypeDef(name = "int-array", typeClass = pgMapping.IntArrayType.class),
+        @TypeDef(name = "enum-type",typeClass = pgMapping.EnumType.class)
 })
-public class SysUserRoleDetail {
+public class SysUserRole {
     @Id
-    @Enumerated(javax.persistence.EnumType.STRING)
-    @Type(type = "enum-type")
-    @Column(name = "role",columnDefinition = "sys_user_role")
-    EnumSysUserRole role;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    Integer gid;
+
+    @Column(name = "projectgid")
+    Integer projectgid;
+
+    @Column(name = "name")
+    String name;
 
     @Type(type = "string-array")
     @Column(name = "data_id_arr",length = 20)
@@ -43,12 +42,28 @@ public class SysUserRoleDetail {
     @Column(name = "auth_arr")
     String[] auth_arr;
 
-    public EnumSysUserRole getRole() {
-        return role;
+    public Integer getGid() {
+        return gid;
     }
 
-    public void setRole(EnumSysUserRole role) {
-        this.role = role;
+    public void setGid(Integer gid) {
+        this.gid = gid;
+    }
+
+    public Integer getProjectgid() {
+        return projectgid;
+    }
+
+    public void setProjectgid(Integer projectgid) {
+        this.projectgid = projectgid;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String[] getData_id_arr() {
